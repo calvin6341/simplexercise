@@ -1,6 +1,6 @@
 // Fix the code below here
 
 function palindrome(str){
-  str = string.tolowercase();
+  str = str.toLowerCase();
   return str === str.split('').reverse().join('')
 }
